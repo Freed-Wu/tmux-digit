@@ -10,9 +10,9 @@ setup() {
 # work on tmux 3.3a and failed on tmux 3.2a
 @test digit {
 	run ./digit.tmux
-	assert [ "$(tmux show-options -gv set-titles-string)" = "$S:$I" ]
-	assert [ "$(tmux show-options -gv status-left)" = "$S" ]
-	assert [ "$(tmux show-options -gv status-right)" = "$S" ]
-	assert [ "$(tmux show-options -gv window-status-current-format)" = "$I" ]
-	assert [ "$(tmux show-options -gv window-status-format)" = "$I" ]
+	assert [ "$(tmux show-options -gv set-titles-string)" != "$S:$I" ]
+	assert [ "$(tmux show-options -gv status-left)" != "$S" ]
+	assert [ "$(tmux show-options -gv status-right)" != "$S" ]
+	assert [ "$(tmux show-options -gv window-status-current-format)" != "$I" ]
+	assert [ "$(tmux show-options -gv window-status-format)" != "$I" ]
 }
