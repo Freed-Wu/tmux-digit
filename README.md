@@ -42,4 +42,9 @@ Refer [example](examples/tmux.conf).
 
 ## Install
 
-See [tpm](https://github.com/tmux-plugins/tpm).
+### [tpm](https://github.com/tmux-plugins/tpm)
+
+```tmux
+set -g @plugin Freed-Wu/tmux-digit
+run ~/.config/tmux/plugins/tpm/tpm
+```
