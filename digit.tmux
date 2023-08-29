@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2155
 interpolation=(
-	"\#S"
-	"\#I"
+	"#S"
+	"#I"
 )
 
 digits=(⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳)
